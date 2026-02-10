@@ -68,10 +68,18 @@
     <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" 
   alt="NumPy"/>
   </p>
+  
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alyssadong2006/alyssadong2006/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alyssadong2006/alyssadong2006/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" 
+src="https://raw.githubusercontent.com/alyssadong2006/alyssadong2006/output/github-contribution-grid-snake.svg">
+</picture>
 
-<br>
+<br> <br>
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=alyssadong2006&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
 
 
 
