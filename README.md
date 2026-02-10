@@ -1,4 +1,4 @@
-  # Hi there, I'm Alyssa Dong 🤗✨                                                                                
+  # [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&width=435&lines=Hi+there!+I'm+Alyssa+%F0%9F%A4%97;Computer+Science+Student+%F0%9F%93%9A;Creative+Coder+%F0%9F%92%BB;Always+learning+new+things+%F0%9F%8C%B1)](https://git.io/typing-svg)                                                                             
                                                                                                                   
   <img align="right" alt="Coding gif" width="400" src="https://giffiles.alphacoders.com/262/26202.gif">
                                                                                                                   
@@ -69,6 +69,8 @@
 <br>
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=alyssadong2006&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+
 
 
 
