@@ -1,9 +1,7 @@
- <div align="center">                                                                                            
-
-  # Hi there, I'm Alyssa Dong 🤗✨
-
+  # Hi there, I'm Alyssa Dong 🤗✨                                                                                
+                                                                                                                  
   <img align="right" alt="Coding gif" width="400" src="https://giffiles.alphacoders.com/262/26202.gif">
-
+                                                                                                                  
   ### 💫 Active Developer & Creative Coder
 
   🎓 **University of Waterloo**
@@ -11,13 +9,13 @@
   🌱 **Currently:** Exploring new technologies
   💪 **Life Motto:** Live, Laugh, ERROR 403
 
-  ---
-
   ### 🌸 About Me
 
   ✨ I'm excited to learn more about programming and constantly expanding my skillset!
   🎨 I love combining creativity with code to build beautiful things
   🚀 Always up for a new challenge and learning opportunity
+
+  ---
 
   ### 🔗 Connect with Me
 
@@ -40,13 +38,3 @@
   src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" 
   alt="VS Code"/>
   </p>
-
-  ---
-
-  <p align="center">
-    <img 
-  src="https://komarev.com/ghpvc/?username=alyssadong2006&color=blueviolet&style=flat-square&label=Profile+Views" 
-  alt="Profile views"/>
-  </p>
-
-  </div>
