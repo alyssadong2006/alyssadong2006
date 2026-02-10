@@ -1,7 +1,9 @@
-  # [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&width=435&lines=Hi+there!+I'm+Alyssa+%F0%9F%A4%97;Computer+Science+Student+%F0%9F%93%9A;Creative+Coder+%F0%9F%92%BB;Always+learning+new+things+%F0%9F%8C%B1)](https://git.io/typing-svg)                                                                             
+  # [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&width=435&lines=Hi+there!+I'm+Alyssa+%F0%9F%A4%97;Computer+Science+Student+%F0%9F%93%9A;Creative+Coder+%F0%9F%92%BB;Always+learning+new+things+%F0%9F%8C%B1)](https://git.io/typing-svg)       ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+  
                                                                                                                   
   <img align="right" alt="Coding gif" width="400" src="https://giffiles.alphacoders.com/262/26202.gif">
-                                                                                                                  
+                                                                                 
   ### 💫 Active Developer & Creative Coder
 
   🎓 **University of Waterloo** <br>
@@ -14,7 +16,7 @@
   ✨ Excited to learn more about programming! <br>
   🎨 Hobby: Coding, swimming and digital art! <br>
   🚀 Always up for a new challenge! <br>
-
+  
   ---
 <!-- <br>
 
@@ -40,6 +42,7 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" 
   alt="Gmail"/>
   </a>
+
 
   ### 🛠️  Tools & Technologies
 
@@ -69,6 +72,7 @@
 <br>
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=alyssadong2006&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
 
 
 
