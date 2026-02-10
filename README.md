@@ -4,16 +4,16 @@
                                                                                                                   
   ### 💫 Active Developer & Creative Coder
 
-  🎓 **University of Waterloo**
-  💻 **Passionate about:** Coding + Art
-  🌱 **Currently:** Exploring new technologies
-  💪 **Life Motto:** Live, Laugh, ERROR 403
+  🎓 **University of Waterloo** <br>
+  💻 **Passionate about:** Coding + Art <br>
+  🌱 **Currently:** Exploring new technologies <br>
+  💪 **Life Motto:** Live, Laugh, ERROR 403 <br>
 
   ### 🌸 About Me
 
-  ✨ I'm excited to learn more about programming and constantly expanding my skillset!
-  🎨 I love combining creativity with code to build beautiful things
-  🚀 Always up for a new challenge and learning opportunity
+  ✨ I'm excited to learn more about programming and expanding my skillset! <br>
+  🎨 I love combining creativity with code to build beautiful things <br>
+  🚀 Always up for a new challenge and learning opportunity <br>
 
   ---
 
@@ -38,3 +38,4 @@
   src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" 
   alt="VS Code"/>
   </p>
+
