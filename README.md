@@ -1,11 +1,11 @@
 ### Hi there, I'm Alyssa Dong 🤗
 
 ### I'm an Active Developer 🌱
-- ✍️Excited to learn more about Python, JavaScript, CSS, and HTML
-- 🎓Academics: High School Student
+- ✍️Excited to learn more about programming
+- 🎓Academics: University of Waterloo
 - 💻Interests: Coding + art
 - 💪Goals: Live, Laugh, ERROR 403
-- 🐳Fun Fact: I don't eat fish
+- 
 - [My GitHub Page](https://alyssadong2006.github.io/index.html)
 
 ### Connect with me:
@@ -14,3 +14,4 @@
 ### Tools:
 [![website](./images/python.svg)](https://www.python.org/)
 [![website](./images/VScode.svg)](https://code.visualstudio.com/)
+
