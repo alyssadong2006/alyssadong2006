@@ -7,7 +7,7 @@
   🎓 **University of Waterloo** <br>
   💻 **Passionate about:** Coding + Art <br>
   🌱 **Currently:** Exploring new technologies <br>
-  💪 **Life Motto:** Live, Laugh, ERROR 403 <br>
+  💪 **Life Motto:** Live, Laugh, ERROR 418 <br>
 
   ### 🌸 About Me
 
@@ -64,6 +64,7 @@
     <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" 
   alt="NumPy"/>
   </p>
+
 
 
 
