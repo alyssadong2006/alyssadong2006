@@ -16,13 +16,13 @@
   🚀 Always up for a new challenge! <br>
 
   ---
-<br>
+<!-- <br>
 
 <p align="left">
 <a href="https://github.com/alyssadong2006">
   <img height="180em" src="https://github-readme-stats-alyssadong.vercel.app/api?username=alyssadong2006&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
 </a>
-</p>
+</p> -->
 
 
   ### 🔗 Connect with Me
@@ -65,6 +65,7 @@
     <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" 
   alt="NumPy"/>
   </p>
+
 
 
 
