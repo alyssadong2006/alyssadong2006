@@ -11,9 +11,9 @@
 
   ### 🌸 About Me
 
-  ✨ Excited to learn more about programming & expanding my skillset! <br>
+  ✨ Excited to learn more about programming! <br>
   🎨 Hobby: Coding, swimming and digital art! <br>
-  🚀 Always up for a new challenge & learning opportunity <br>
+  🚀 Always up for a new challenge! <br>
 
   ---
 
@@ -38,5 +38,6 @@
   src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" 
   alt="VS Code"/>
   </p>
+
 
 
