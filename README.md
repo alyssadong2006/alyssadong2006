@@ -15,6 +15,14 @@
   🎨 Hobby: Coding, swimming and digital art! <br>
   🚀 Always up for a new challenge! <br>
 
+<br>
+
+<p align="left">
+<a href="https://github.com/1tracy">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=1tracy&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+</a>
+</p>
+
   ---
 
   ### 🔗 Connect with Me
@@ -57,6 +65,8 @@
     <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" 
   alt="NumPy"/>
   </p>
+
+
 
 
 
