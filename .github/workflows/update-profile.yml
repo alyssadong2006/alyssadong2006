@@ -1,0 +1,36 @@
+name: Update Dynamic Profile Visuals
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Generate Pac-Man SVG
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN || github.token }}
+        run: python scripts/generate_pacman.py
+
+      - name: Commit and push updated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated/pacman-commits.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Chore: update Pac-Man contribution animation"
+            git push
+          fi
