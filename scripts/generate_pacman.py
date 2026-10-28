@@ -204,13 +204,13 @@ def build_svg(login: str, counts: list[list[int]], demo: bool = False) -> ET.Ele
     duration_css = f"{duration:g}s"
     style = ET.SubElement(root, _tag("style"))
     style.text = (
-        ":root { --empty-color: #161b22; --label-color: #8b949e; } "
-        ".background { fill: #0d1117; } "
+        ":root { --empty-color: #ebedf0; --label-color: #57606a; } "
+        ".background { fill: #ffffff; } "
         ".tile-empty { fill: var(--empty-color); } "
         ".footer { fill: var(--label-color); } "
-        "@media (prefers-color-scheme: light) { "
-        ":root { --empty-color: #ebedf0; --label-color: #57606a; } "
-        ".background { fill: #ffffff; } } "
+        "@media (prefers-color-scheme: dark) { "
+        ":root { --empty-color: #161b22; --label-color: #8b949e; } "
+        ".background { fill: #0d1117; } } "
         "@keyframes slide { "
         + _animation_keyframes(route, face_movement=True)
         + " } "
