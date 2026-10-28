@@ -204,6 +204,13 @@ def build_svg(login: str, counts: list[list[int]], demo: bool = False) -> ET.Ele
     duration_css = f"{duration:g}s"
     style = ET.SubElement(root, _tag("style"))
     style.text = (
+        ":root { --empty-color: #161b22; --label-color: #8b949e; } "
+        ".background { fill: #0d1117; } "
+        ".tile-empty { fill: var(--empty-color); } "
+        ".footer { fill: var(--label-color); } "
+        "@media (prefers-color-scheme: light) { "
+        ":root { --empty-color: #ebedf0; --label-color: #57606a; } "
+        ".background { fill: #ffffff; } } "
         "@keyframes slide { "
         + _animation_keyframes(route, face_movement=True)
         + " } "
@@ -225,11 +232,18 @@ def build_svg(login: str, counts: list[list[int]], demo: bool = False) -> ET.Ele
     # Populated tiles turn dark just after Pac-Man passes them.
     style.text += " " + _tile_animation_rules(counts, route, duration_css)
 
+    ET.SubElement(
+        root,
+        _tag("rect"),
+        {"class": "background", "width": str(width), "height": str(height)},
+    )
+
     grid = ET.SubElement(root, _tag("g"), {"aria-hidden": "true"})
     for column in range(COLUMNS):
         for row in range(ROWS):
             count = counts[column][row] if column < len(counts) and row < len(counts[column]) else 0
-            classes = f"tile tile-{column}-{row}" if count else "tile"
+            classes = f"tile tile-{column}-{row}" if count else "tile tile-empty"
+            fill = "var(--empty-color)" if count == 0 else _contribution_color(count)
             tile = ET.SubElement(
                 grid,
                 _tag("rect"),
@@ -240,7 +254,7 @@ def build_svg(login: str, counts: list[list[int]], demo: bool = False) -> ET.Ele
                     "width": str(CELL_SIZE),
                     "height": str(CELL_SIZE),
                     "rx": "2",
-                    "fill": _contribution_color(count),
+                    "fill": fill,
                     "data-count": str(count),
                 },
             )
@@ -275,9 +289,10 @@ def build_svg(login: str, counts: list[list[int]], demo: bool = False) -> ET.Ele
         ET.SubElement(ghost, _tag("circle"), {"cx": x, "cy": "5", "r": "0.8", "fill": "#fff"})
 
     footer = ET.SubElement(root, _tag("text"), {
+        "class": "footer",
         "x": str(GRID_X),
         "y": str(height - 6),
-        "fill": "#8b949e",
+        "fill": "var(--label-color)",
         "font-family": "monospace",
         "font-size": "9",
     })
@@ -301,10 +316,10 @@ def _tile_animation_rules(
         eaten_at = index / max(route_length - 1, 1) * 100
         keyframes = (
             f"0% {{ fill: {_contribution_color(count)}; animation-timing-function: steps(1, end); }}"
-            f"{eaten_at:.3f}% {{ fill: {COLORS[0]}; }}"
+            f"{eaten_at:.3f}% {{ fill: var(--empty-color); }}"
         )
         if eaten_at == 0:
-            keyframes = f"0% {{ fill: {COLORS[0]}; }}"
+            keyframes = "0% { fill: var(--empty-color); }"
         rules.append(
             f".tile-{column}-{row} {{ animation: eat-{column}-{row} "
             f"{duration_css} linear infinite; }}"
