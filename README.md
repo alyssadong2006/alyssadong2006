@@ -14,6 +14,7 @@
 
 <img src="./assets/panel-connect.svg" alt="Connect with me" width="100%" />
 
+<p>
 <a href="https://www.instagram.com/alyssa_dong_0527/">
   <img src="https://img.shields.io/badge/Instagram-F2A7C2?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
 </a>
@@ -23,6 +24,7 @@
 <a href="mailto:alydong2006@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-F4B6B6?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
 </a>
+</p>
 
 <img src="./assets/panel-tools.svg" alt="Tools and technologies" width="100%" />
 
