@@ -4,34 +4,7 @@
 
 </div>
 
-<br>
-
-<div align="left">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E77AAB&width=520&lines=Hi+there!+I'm+Alyssa+%F0%9F%A4%97;AMATH+and+ML+Student+%F0%9F%93%9A;Creative+Coder+%F0%9F%92%BB;Always+learning+new+things+%F0%9F%8C%B1)](https://git.io/typing-svg)
-
-</div>
-
-<img align="right" alt="A cozy coding animation" width="300" src="https://giffiles.alphacoders.com/262/26202.gif">
-
-### 💫 Active Developer & Creative Coder
-
-🎓 **University of Waterloo**<br>
-💻 **Passionate about:** Coding + art<br>
-🌱 **Currently:** Exploring new technologies<br>
-💪 **Life Motto:** Live, Laugh, ERROR 418
-
-### 🌸 About Me
-
-✨ Excited to learn more about programming!<br>
-🎨 I enjoy coding, swimming, and digital art.<br>
-🚀 Always up for a new challenge!
-
-<br clear="right">
-
----
-
-### 👾 My Contribution Arcade
+<img src="./assets/panel-arcade.svg" alt="Contribution arcade" width="100%" />
 
 <div align="center">
 
@@ -39,7 +12,7 @@
 
 </div>
 
-### 🔗 Connect with Me
+<img src="./assets/panel-connect.svg" alt="Connect with me" width="100%" />
 
 <a href="https://www.instagram.com/alyssa_dong_0527/">
   <img src="https://img.shields.io/badge/Instagram-F2A7C2?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
@@ -51,7 +24,7 @@
   <img src="https://img.shields.io/badge/Gmail-F4B6B6?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
 </a>
 
-### 🛠️ Tools & Technologies
+<img src="./assets/panel-tools.svg" alt="Tools and technologies" width="100%" />
 
 <p>
   <img src="https://img.shields.io/badge/Python-B8DCCB?style=for-the-badge&logo=python&logoColor=354B43" alt="Python" />

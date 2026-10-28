@@ -1,38 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title description" shape-rendering="crispEdges">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title description" shape-rendering="crispEdges">
   <title id="title">Alyssa — AMATH and machine learning student, creative coder</title>
-  <desc id="description">A detailed pastel pixel-art desk scene with a smiling computer, flowers, books, and Alyssa's short introduction.</desc>
+  <desc id="description">A detailed pastel pixel-art desk scene with a smiling computer, a sunflower in a vase, flowers, and Alyssa's short introduction.</desc>
   <style>
-    @keyframes plant-sway {
-      0%, 100% { transform: rotate(0deg); }
-      50% { transform: rotate(2deg); }
-    }
     @keyframes computer-blink {
-      0%, 93%, 100% { transform: scaleY(1); }
-      95%, 98% { transform: scaleY(0.12); }
-    }
-    @keyframes flower-bob {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-4px); }
+      0%, 92%, 100% { opacity: 1; }
+      94%, 98% { opacity: 0.15; }
     }
     @keyframes sparkle {
       0%, 100% { opacity: 0.55; }
       50% { opacity: 1; }
     }
-    .plant {
-      transform-box: fill-box;
-      transform-origin: 50% 100%;
-      animation: plant-sway 3.8s ease-in-out infinite;
-    }
     .computer-eye {
-      transform-box: fill-box;
-      transform-origin: center;
       animation: computer-blink 4.6s steps(1, end) infinite;
     }
     .flower {
-      transform-box: fill-box;
-      transform-origin: center;
-      animation: flower-bob 3s ease-in-out infinite;
+      animation: sparkle 2.4s ease-in-out infinite;
     }
+    .plant-leaf { animation: sparkle 3.2s ease-in-out infinite; }
+    .sunflower-petal { animation: sparkle 2.8s ease-in-out infinite; }
+    .sunflower-petal-two { animation-delay: -1.4s; }
     .flower-two { animation-delay: -0.8s; }
     .flower-three { animation-delay: -1.6s; }
     .flower-four { animation-delay: -2.2s; }
@@ -40,24 +26,61 @@
     .flower-six { animation-delay: -1.4s; }
     .sparkle { animation: sparkle 2.4s ease-in-out infinite; }
     .sparkle-two { animation-delay: -1.2s; }
+    .leaf-two { animation-delay: -0.5s; }
+    .leaf-three { animation-delay: -1s; }
     @media (prefers-reduced-motion: reduce) {
-      .plant, .computer-eye, .flower, .sparkle { animation: none; }
+      .computer-eye, .flower, .sparkle, .plant-leaf, .sunflower-petal { animation: none; }
     }
   </style>
 
-  <rect width="1000" height="300" fill="#fff3f8"/>
-  <rect x="8" y="8" width="984" height="284" fill="#d9c2ed"/>
-  <rect x="16" y="16" width="968" height="268" fill="#fff8fc"/>
-  <rect x="24" y="24" width="952" height="252" fill="#f8eaff"/>
-  <rect x="32" y="32" width="936" height="236" fill="#fff3f8"/>
+  <rect width="1000" height="360" fill="#fff3f8"/>
+  <rect x="8" y="8" width="984" height="344" fill="#d9c2ed"/>
+  <rect x="16" y="16" width="968" height="328" fill="#fff8fc"/>
+  <rect x="24" y="24" width="952" height="312" fill="#f8eaff"/>
+  <rect x="32" y="32" width="936" height="296" fill="#fff3f8"/>
 
   <g fill="#e9d8f6">
-    <rect x="40" y="40" width="192" height="216"/>
-    <rect x="768" y="40" width="192" height="216"/>
+    <rect x="40" y="40" width="192" height="276"/>
+    <rect x="768" y="40" width="192" height="276"/>
   </g>
   <g fill="#f5eafa">
-    <rect x="48" y="48" width="176" height="200"/>
-    <rect x="776" y="48" width="176" height="200"/>
+    <rect x="48" y="48" width="176" height="260"/>
+    <rect x="776" y="48" width="176" height="260"/>
+  </g>
+
+  <g fill="#88b89a">
+    <rect x="40" y="64" width="8" height="16"/><rect x="48" y="80" width="8" height="16"/>
+    <rect x="40" y="96" width="8" height="16"/><rect x="48" y="112" width="8" height="16"/>
+    <rect x="952" y="64" width="8" height="16"/><rect x="944" y="80" width="8" height="16"/>
+    <rect x="952" y="96" width="8" height="16"/><rect x="944" y="112" width="8" height="16"/>
+    <rect x="40" y="240" width="8" height="16"/><rect x="48" y="256" width="8" height="16"/>
+    <rect x="40" y="272" width="8" height="16"/><rect x="48" y="288" width="8" height="16"/>
+    <rect x="952" y="240" width="8" height="16"/><rect x="944" y="256" width="8" height="16"/>
+    <rect x="952" y="272" width="8" height="16"/><rect x="944" y="288" width="8" height="16"/>
+  </g>
+  <g fill="#a5c9a8">
+    <rect x="48" y="80" width="12" height="8"/><rect x="36" y="104" width="12" height="8"/>
+    <rect x="940" y="80" width="12" height="8"/><rect x="952" y="104" width="12" height="8"/>
+    <rect x="48" y="256" width="12" height="8"/><rect x="36" y="280" width="12" height="8"/>
+    <rect x="940" y="256" width="12" height="8"/><rect x="952" y="280" width="12" height="8"/>
+  </g>
+  <g fill="#e99cbd">
+    <rect x="40" y="40" width="8" height="8"/><rect x="56" y="40" width="8" height="8"/>
+    <rect x="32" y="48" width="8" height="8"/><rect x="64" y="48" width="8" height="8"/>
+    <rect x="40" y="56" width="8" height="8"/><rect x="56" y="56" width="8" height="8"/>
+    <rect x="936" y="40" width="8" height="8"/><rect x="952" y="40" width="8" height="8"/>
+    <rect x="928" y="48" width="8" height="8"/><rect x="960" y="48" width="8" height="8"/>
+    <rect x="936" y="56" width="8" height="8"/><rect x="952" y="56" width="8" height="8"/>
+    <rect x="40" y="296" width="8" height="8"/><rect x="56" y="296" width="8" height="8"/>
+    <rect x="32" y="304" width="8" height="8"/><rect x="64" y="304" width="8" height="8"/>
+    <rect x="40" y="312" width="8" height="8"/><rect x="56" y="312" width="8" height="8"/>
+    <rect x="936" y="296" width="8" height="8"/><rect x="952" y="296" width="8" height="8"/>
+    <rect x="928" y="304" width="8" height="8"/><rect x="960" y="304" width="8" height="8"/>
+    <rect x="936" y="312" width="8" height="8"/><rect x="952" y="312" width="8" height="8"/>
+  </g>
+  <g fill="#f2cc78">
+    <rect x="48" y="48" width="8" height="8"/><rect x="944" y="48" width="8" height="8"/>
+    <rect x="48" y="304" width="8" height="8"/><rect x="944" y="304" width="8" height="8"/>
   </g>
 
   <!-- Pixel stars and floating hearts -->
@@ -87,7 +110,7 @@
   </g>
 
   <!-- Friendly pixel computer -->
-  <g>
+  <g transform="translate(0 60)">
     <rect x="88" y="144" width="112" height="72" fill="#8873a8"/>
     <rect x="96" y="152" width="96" height="56" fill="#c6b3e4"/>
     <rect x="104" y="160" width="80" height="40" fill="#fff8fc"/>
@@ -103,13 +126,46 @@
     <rect x="136" y="232" width="8" height="4" fill="#f2cc78"/>
   </g>
 
-  <!-- Little potted pixel plant -->
-  <g class="plant">
+  <!-- Pixel sunflower in a vase -->
+  <g class="plant" transform="translate(0 60)">
     <rect x="808" y="176" width="8" height="32" fill="#73a88a"/>
-    <rect x="784" y="160" width="24" height="8" fill="#73a88a"/>
-    <rect x="800" y="152" width="16" height="8" fill="#73a88a"/>
-    <rect x="816" y="168" width="24" height="8" fill="#73a88a"/>
-    <rect x="824" y="160" width="8" height="8" fill="#73a88a"/>
+    <rect class="plant-leaf" x="784" y="184" width="24" height="8" fill="#73a88a"/>
+    <rect class="plant-leaf leaf-two" x="784" y="176" width="8" height="8" fill="#73a88a"/>
+    <rect class="plant-leaf leaf-three" x="816" y="184" width="24" height="8" fill="#73a88a"/>
+    <rect class="plant-leaf" x="832" y="176" width="8" height="8" fill="#73a88a"/>
+    <g class="sunflower-petal" fill="#f2cc78">
+      <rect x="808" y="136" width="8" height="8"/>
+      <rect x="792" y="144" width="8" height="8"/>
+      <rect x="824" y="144" width="8" height="8"/>
+      <rect x="784" y="160" width="8" height="8"/>
+      <rect x="832" y="160" width="8" height="8"/>
+      <rect x="792" y="176" width="8" height="8"/>
+      <rect x="824" y="176" width="8" height="8"/>
+      <rect x="808" y="184" width="8" height="8"/>
+    </g>
+    <g class="sunflower-petal sunflower-petal-two" fill="#e9a94f">
+      <rect x="800" y="144" width="8" height="8"/>
+      <rect x="816" y="144" width="8" height="8"/>
+      <rect x="792" y="152" width="8" height="8"/>
+      <rect x="824" y="152" width="8" height="8"/>
+      <rect x="792" y="168" width="8" height="8"/>
+      <rect x="824" y="168" width="8" height="8"/>
+      <rect x="800" y="176" width="8" height="8"/>
+      <rect x="816" y="176" width="8" height="8"/>
+    </g>
+    <rect x="800" y="152" width="24" height="24" fill="#8a5a42"/>
+    <g fill="#684431">
+      <rect x="800" y="152" width="8" height="8"/>
+      <rect x="816" y="152" width="8" height="8"/>
+      <rect x="808" y="160" width="8" height="8"/>
+      <rect x="800" y="168" width="8" height="8"/>
+      <rect x="816" y="168" width="8" height="8"/>
+    </g>
+    <g fill="#f2cc78">
+      <rect x="808" y="152" width="8" height="8"/>
+      <rect x="816" y="160" width="8" height="8"/>
+      <rect x="808" y="168" width="8" height="8"/>
+    </g>
     <rect x="792" y="208" width="40" height="8" fill="#d78da8"/>
     <rect x="800" y="216" width="24" height="24" fill="#e8a9ba"/>
     <rect x="792" y="240" width="40" height="8" fill="#bd7d99"/>
@@ -118,21 +174,26 @@
 
   <!-- Introduction panel -->
   <g text-anchor="middle" font-family="monospace" font-weight="700">
-    <rect x="264" y="56" width="472" height="192" fill="#edddf5"/>
-    <rect x="272" y="48" width="456" height="192" fill="#fffafd"/>
-    <rect x="280" y="56" width="440" height="8" fill="#e7c4da"/>
-    <rect x="280" y="224" width="440" height="8" fill="#e7c4da"/>
-    <rect x="280" y="64" width="8" height="160" fill="#e7c4da"/>
-    <rect x="712" y="64" width="8" height="160" fill="#e7c4da"/>
-    <text x="500" y="96" font-size="26" fill="#745984">HI THERE! I'M ALYSSA ♡</text>
-    <rect x="336" y="108" width="328" height="2" fill="#ead7ed"/>
-    <text x="500" y="138" font-size="18" fill="#9c6c9b">AMATH + ML STUDENT</text>
-    <text x="500" y="169" font-size="18" fill="#c16f98">CREATIVE CODER</text>
-    <text x="500" y="200" font-size="16" fill="#7f8f78">ALWAYS LEARNING NEW THINGS</text>
+    <rect x="264" y="44" width="472" height="280" fill="#edddf5"/>
+    <rect x="272" y="36" width="456" height="280" fill="#fffafd"/>
+    <rect x="280" y="44" width="440" height="8" fill="#e7c4da"/>
+    <rect x="280" y="300" width="440" height="8" fill="#e7c4da"/>
+    <rect x="280" y="52" width="8" height="248" fill="#e7c4da"/>
+    <rect x="712" y="52" width="8" height="248" fill="#e7c4da"/>
+    <text x="500" y="82" font-size="25" fill="#745984">HI THERE! I'M ALYSSA ♡</text>
+    <rect x="336" y="94" width="328" height="2" fill="#ead7ed"/>
+    <text x="500" y="121" font-size="17" fill="#9c6c9b">AMATH + ML STUDENT</text>
+    <text x="500" y="146" font-size="14" fill="#7f8f78">UNIVERSITY OF WATERLOO</text>
+    <text x="500" y="179" font-size="17" fill="#c16f98">CREATIVE CODER</text>
+    <text x="500" y="205" font-size="14" fill="#9c6c9b">PASSIONATE ABOUT CODING + ART</text>
+    <text x="500" y="231" font-size="14" fill="#7f8f78">CODING · SWIMMING · DIGITAL ART</text>
+    <text x="500" y="257" font-size="14" fill="#9c6c9b">ALWAYS LEARNING · ALWAYS UP FOR A CHALLENGE</text>
+    <rect x="352" y="270" width="296" height="2" fill="#ead7ed"/>
+    <text x="500" y="290" font-size="15" fill="#c16f98">LIVE, LAUGH, ERROR 418 ♡</text>
   </g>
 
   <g fill="#f2cc78">
-    <rect x="304" y="80" width="8" height="8"/><rect x="688" y="80" width="8" height="8"/>
-    <rect x="304" y="200" width="8" height="8"/><rect x="688" y="200" width="8" height="8"/>
+    <rect x="304" y="64" width="8" height="8"/><rect x="688" y="64" width="8" height="8"/>
+    <rect x="304" y="280" width="8" height="8"/><rect x="688" y="280" width="8" height="8"/>
   </g>
 </svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="76" viewBox="0 0 900 76" role="img" aria-labelledby="title description" shape-rendering="crispEdges">
+  <title id="title">Connect with me</title>
+  <desc id="description">Pastel pixel-art section plaque with softly pulsing hearts.</desc>
+  <style>
+    @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.12); } }
+    @keyframes petal-glow { 0%, 100% { opacity: .7; } 50% { opacity: 1; } }
+    .heart { transform-box: fill-box; transform-origin: center; animation: pulse 2s ease-in-out infinite; }
+    .heart-two { animation-delay: -1s; }
+    .petals { animation: petal-glow 3s ease-in-out infinite; }
+    .petals-two { animation-delay: -1.5s; }
+    @media (prefers-reduced-motion: reduce) { .heart, .petals { animation: none; } }
+  </style>
+  <rect x="4" y="4" width="892" height="68" fill="#e7c4da"/>
+  <rect x="10" y="10" width="880" height="56" fill="#fffafd"/>
+  <rect x="18" y="18" width="864" height="40" fill="#fff1f6"/>
+  <rect x="18" y="18" width="8" height="40" fill="#e7c4da"/>
+  <rect x="874" y="18" width="8" height="40" fill="#e7c4da"/>
+  <g fill="#88b89a">
+    <rect x="30" y="34" width="6" height="12"/><rect x="36" y="46" width="6" height="6"/>
+    <rect x="864" y="34" width="6" height="12"/><rect x="858" y="46" width="6" height="6"/>
+  </g>
+  <g class="petals" fill="#e99cbd">
+    <rect x="36" y="22" width="6" height="6"/><rect x="48" y="22" width="6" height="6"/>
+    <rect x="30" y="28" width="6" height="6"/><rect x="54" y="28" width="6" height="6"/>
+    <rect x="36" y="34" width="6" height="6"/><rect x="48" y="34" width="6" height="6"/>
+  </g>
+  <rect x="42" y="28" width="6" height="6" fill="#f2cc78"/>
+  <g class="petals petals-two" fill="#c6a9e3">
+    <rect x="846" y="22" width="6" height="6"/><rect x="858" y="22" width="6" height="6"/>
+    <rect x="840" y="28" width="6" height="6"/><rect x="864" y="28" width="6" height="6"/>
+    <rect x="846" y="34" width="6" height="6"/><rect x="858" y="34" width="6" height="6"/>
+  </g>
+  <rect x="852" y="28" width="6" height="6" fill="#f2cc78"/>
+  <g fill="#a5c9a8">
+    <rect x="42" y="40" width="6" height="4"/><rect x="36" y="46" width="6" height="4"/>
+    <rect x="852" y="40" width="6" height="4"/><rect x="858" y="46" width="6" height="4"/>
+  </g>
+  <g class="heart" fill="#e99cbd">
+    <rect x="72" y="28" width="8" height="8"/><rect x="88" y="28" width="8" height="8"/>
+    <rect x="64" y="36" width="40" height="8"/><rect x="72" y="44" width="24" height="8"/>
+    <rect x="80" y="52" width="8" height="8"/>
+  </g>
+  <text x="450" y="49" text-anchor="middle" font-family="monospace" font-size="26" font-weight="700" fill="#9c6687">CONNECT WITH ME</text>
+  <g class="heart heart-two" fill="#c6a9e3">
+    <rect x="804" y="28" width="8" height="8"/><rect x="820" y="28" width="8" height="8"/>
+    <rect x="796" y="36" width="40" height="8"/><rect x="804" y="44" width="24" height="8"/>
+    <rect x="812" y="52" width="8" height="8"/>
+  </g>
+</svg>

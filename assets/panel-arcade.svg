@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="76" viewBox="0 0 900 76" role="img" aria-labelledby="title description" shape-rendering="crispEdges">
+  <title id="title">Contribution arcade</title>
+  <desc id="description">Pastel pixel-art section plaque with a blinking arcade ghost.</desc>
+  <style>
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    @keyframes blink { 0%, 88%, 100% { opacity: 1; } 92%, 96% { opacity: .2; } }
+    .ghost { animation: float 2.6s ease-in-out infinite; }
+    .eye { animation: blink 3.8s steps(1, end) infinite; }
+    .petals { animation: blink 3.2s steps(2, end) infinite; }
+    .petals-two { animation-delay: -1.6s; }
+    @media (prefers-reduced-motion: reduce) { .ghost, .eye, .petals { animation: none; } }
+  </style>
+  <rect x="4" y="4" width="892" height="68" fill="#c6b3e4"/>
+  <rect x="10" y="10" width="880" height="56" fill="#fffafd"/>
+  <rect x="18" y="18" width="864" height="40" fill="#f3f0ff"/>
+  <rect x="18" y="18" width="8" height="40" fill="#c6b3e4"/>
+  <rect x="874" y="18" width="8" height="40" fill="#c6b3e4"/>
+  <g fill="#88b89a">
+    <rect x="30" y="34" width="6" height="12"/><rect x="36" y="46" width="6" height="6"/>
+    <rect x="864" y="34" width="6" height="12"/><rect x="858" y="46" width="6" height="6"/>
+  </g>
+  <g class="petals" fill="#e99cbd">
+    <rect x="36" y="22" width="6" height="6"/><rect x="48" y="22" width="6" height="6"/>
+    <rect x="30" y="28" width="6" height="6"/><rect x="54" y="28" width="6" height="6"/>
+    <rect x="36" y="34" width="6" height="6"/><rect x="48" y="34" width="6" height="6"/>
+  </g>
+  <rect x="42" y="28" width="6" height="6" fill="#f2cc78"/>
+  <g class="petals petals-two" fill="#c6a9e3">
+    <rect x="846" y="22" width="6" height="6"/><rect x="858" y="22" width="6" height="6"/>
+    <rect x="840" y="28" width="6" height="6"/><rect x="864" y="28" width="6" height="6"/>
+    <rect x="846" y="34" width="6" height="6"/><rect x="858" y="34" width="6" height="6"/>
+  </g>
+  <rect x="852" y="28" width="6" height="6" fill="#f2cc78"/>
+  <g fill="#a5c9a8">
+    <rect x="42" y="40" width="6" height="4"/><rect x="36" y="46" width="6" height="4"/>
+    <rect x="852" y="40" width="6" height="4"/><rect x="858" y="46" width="6" height="4"/>
+  </g>
+  <g class="ghost">
+    <g fill="#f2a9c5">
+      <rect x="72" y="22" width="24" height="6"/>
+      <rect x="66" y="28" width="36" height="6"/>
+      <rect x="66" y="34" width="36" height="12"/>
+      <rect x="66" y="46" width="6" height="6"/>
+      <rect x="78" y="46" width="6" height="6"/>
+      <rect x="90" y="46" width="6" height="6"/>
+    </g>
+    <g class="eye" fill="#fff">
+      <rect x="72" y="31" width="6" height="9"/>
+      <rect x="90" y="31" width="6" height="9"/>
+    </g>
+    <g fill="#65517f">
+      <rect x="75" y="34" width="3" height="6"/>
+      <rect x="93" y="34" width="3" height="6"/>
+    </g>
+  </g>
+  <text x="450" y="49" text-anchor="middle" font-family="monospace" font-size="26" font-weight="700" fill="#745984">CONTRIBUTION ARCADE</text>
+  <g class="ghost">
+    <g fill="#b9a2df">
+      <rect x="804" y="22" width="24" height="6"/>
+      <rect x="798" y="28" width="36" height="6"/>
+      <rect x="798" y="34" width="36" height="12"/>
+      <rect x="798" y="46" width="6" height="6"/>
+      <rect x="810" y="46" width="6" height="6"/>
+      <rect x="822" y="46" width="6" height="6"/>
+    </g>
+    <g fill="#fff">
+      <rect x="804" y="31" width="6" height="9"/>
+      <rect x="822" y="31" width="6" height="9"/>
+    </g>
+    <g fill="#65517f">
+      <rect x="807" y="34" width="3" height="6"/>
+      <rect x="825" y="34" width="3" height="6"/>
+    </g>
+  </g>
+</svg>
