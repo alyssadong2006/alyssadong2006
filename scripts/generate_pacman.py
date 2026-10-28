@@ -42,7 +42,7 @@ COLORS = ("#161b22", "#0e4429", "#006d32", "#26a641", "#39d353")
 CELL_SIZE = 10
 GAP = 2
 GRID_X = 12
-GRID_Y = 18
+GRID_Y = 12
 COLUMNS = 52
 ROWS = 7
 SECONDS_PER_STEP = 0.35
@@ -149,7 +149,7 @@ def _movement_route(counts: list[list[int]]) -> list[tuple[int, int]]:
 def _animation_keyframes(route: list[tuple[int, int]], face_movement: bool = False) -> str:
     frames = []
     for index, (column, row) in enumerate(route):
-        percentage = index / max(len(route) - 1, 1) * 100
+        percentage = _route_percentage(index, len(route))
         x = GRID_X + column * (CELL_SIZE + GAP)
         y = GRID_Y + row * (CELL_SIZE + GAP)
         transform = f"translate({x}px, {y}px)"
@@ -173,6 +173,10 @@ def _animation_keyframes(route: list[tuple[int, int]], face_movement: bool = Fal
 
 def _animation_duration(route: list[tuple[int, int]]) -> float:
     return max(MIN_ANIMATION_SECONDS, len(route) * SECONDS_PER_STEP)
+
+
+def _route_percentage(index: int, route_length: int) -> float:
+    return index / max(route_length - 1, 1) * 100
 
 
 def build_svg(login: str, counts: list[list[int]], demo: bool = False) -> ET.Element:
@@ -229,8 +233,8 @@ def build_svg(login: str, counts: list[list[int]], demo: bool = False) -> ET.Ele
         ".closed-mouth { animation: close-mouth 0.32s steps(1, end) infinite; }"
     )
 
-    # Populated tiles turn dark just after Pac-Man passes them.
-    style.text += " " + _tile_animation_rules(counts, route, duration_css)
+    # Populated tiles dissolve as Pac-Man reaches them.
+    style.text += " " + _tile_animation_rules(counts, route, duration)
 
     ET.SubElement(
         root,
@@ -301,7 +305,7 @@ def build_svg(login: str, counts: list[list[int]], demo: bool = False) -> ET.Ele
 
 
 def _tile_animation_rules(
-    counts: list[list[int]], route: list[tuple[int, int]], duration_css: str
+    counts: list[list[int]], route: list[tuple[int, int]], duration: float
 ) -> str:
     rules = []
     route_length = len(route)
@@ -313,16 +317,18 @@ def _tile_animation_rules(
         count = counts[column][row] if column < len(counts) and row < len(counts[column]) else 0
         if count <= 0:
             continue
-        eaten_at = index / max(route_length - 1, 1) * 100
-        keyframes = (
-            f"0% {{ fill: {_contribution_color(count)}; animation-timing-function: steps(1, end); }}"
-            f"{eaten_at:.3f}% {{ fill: var(--empty-color); }}"
-        )
+        eaten_at = _route_percentage(index, route_length)
+        fade_end = min(eaten_at + 0.05 / duration * 100, 100)
+        keyframes = f"0%, {eaten_at:.3f}% {{ opacity: 1; }}"
         if eaten_at == 0:
-            keyframes = "0% { fill: var(--empty-color); }"
+            keyframes = "0% { opacity: 0; }"
+            fade_end = 0
+        else:
+            keyframes += f"{fade_end:.3f}% {{ opacity: 0; }}"
+        keyframes += "100% { opacity: 0; }"
         rules.append(
             f".tile-{column}-{row} {{ animation: eat-{column}-{row} "
-            f"{duration_css} linear infinite; }}"
+            f"{duration:g}s linear infinite; }}"
             f"@keyframes eat-{column}-{row} {{ {keyframes} }}"
         )
     return " ".join(rules)
