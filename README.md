@@ -14,17 +14,7 @@
 
 <img src="./assets/panel-connect.svg" alt="Connect with me" width="100%" />
 
-<p>
-<a href="https://www.instagram.com/alyssa_dong_0527/">
-  <img src="https://img.shields.io/badge/Instagram-F2A7C2?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-</a>
-<a href="https://alyssadong2006.github.io/index.html">
-  <img src="https://img.shields.io/badge/Portfolio-CBA6F7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
-</a>
-<a href="mailto:alydong2006@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-F4B6B6?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-</a>
-</p>
+[![Instagram](https://img.shields.io/badge/Instagram-F2A7C2?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/alyssa_dong_0527/) [![Portfolio](https://img.shields.io/badge/Portfolio-CBA6F7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://alyssadong2006.github.io/index.html) [![Gmail](https://img.shields.io/badge/Gmail-F4B6B6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alydong2006@gmail.com)
 
 <img src="./assets/panel-tools.svg" alt="Tools and technologies" width="100%" />
 
