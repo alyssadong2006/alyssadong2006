@@ -2,9 +2,11 @@
 
 <img src="./assets/pastel-pixel-banner.svg" alt="A pastel pixel-art banner saying hello" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E77AAB&width=520&lines=Hi+there!+I'm+Alyssa+%F0%9F%A4%97;AMATH+and+ML+Student+%F0%9F%93%9A;Creative+Coder+%F0%9F%92%BB;Always+learning+new+things+%F0%9F%8C%B1)](https://git.io/typing-svg)
+</div>
 
-![A happy little quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=catppuccin)
+<div align="left">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E77AAB&width=520&lines=Hi+there!+I'm+Alyssa+%F0%9F%A4%97;AMATH+and+ML+Student+%F0%9F%93%9A;Creative+Coder+%F0%9F%92%BB;Always+learning+new+things+%F0%9F%8C%B1)](https://git.io/typing-svg)
 
 </div>
 
